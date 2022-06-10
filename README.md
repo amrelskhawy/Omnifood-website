@@ -9,4 +9,4 @@
 **<center><h2 >Live Demo Will Come Soon After Last Edits**</h2></center>
 
 <h2>Screenshot from Website</h2>
-![alt text](image.jpg)
+![alt text](preview.jpg)
