@@ -965,7 +965,7 @@ header.scrolled {
     background: #ffd43b;
     transform: rotate(45deg);
     top: 8%;
-    right: -16%;
+    right: -20%;
 }
 
 .price-box.complete ul li:before {
