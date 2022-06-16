@@ -3,13 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="./imgs/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/all.min.css">
+    <title>Omnifood — Never cook again</title>
 </head>
 
 <body>
@@ -21,11 +23,12 @@
                 <div class="header scrooled">
                     <img src="./imgs/logos/omnifood-logo.png" alt="">
                     <div class="toggle-icon">
-                        <i class="fa-solid fa-bars"></i>
-
+                        <i  class="fa-solid fa-bars"></i>
                     </div>
                     <ul class="links">
-                        <i class="fa-solid fa-xmark exit-icon" id="exit-icon"></i>
+                        <div class="exit-icon">
+                            <i class="fa-solid fa-xmark " id="exit-icon"></i>
+                        </div>
                         <li>
                             <a href="#how-it-works" class="link">How it's Work</a>
                         </li>
@@ -39,7 +42,7 @@
                             <a href="#pricing" class="link">Pricing</a>
                         </li>
                         <li>
-                            <a href="" class="link try">Try For Free</a>
+                            <a href="#" class="link try">Try For Free</a>
                         </li>
                     </ul>
                 </div>
@@ -78,9 +81,7 @@
                     <img class="landingImg" src="./imgs/food/hero-modified.webp" alt="">
                 </div>
             </div>
-        </div>
 
-        </div>
     </main>
 
     <!-- How it's Work Section -->
@@ -97,7 +98,17 @@
                 <img class="logo" src="./imgs/logos/usa-today.png" alt="">
             </div>
             <div class="features">
-                <div class="feat grid">
+                <div class="description">
+                    <p>HOW IT WORKS</p>
+                    <h2>Your daily dose of health in 3 simple steps</h2>
+                </div>
+                <div class="feat ">
+                    <div class="image">
+                        <div class="circle circle-1"></div>
+                        <div class="circle circle-2"></div>
+                        <img src="./imgs/phones/app-screen-1.png" alt="" class="feat-img"
+                        >
+                    </div>
                     <div class="feat-content">
                         <h2>01</h2>
                         <h3>Tell Us What you like (and what not)</h3>
@@ -105,17 +116,13 @@
                             personalized weekly meal plan just for you. It makes sure you get all the nutrients and
                             vitamins you need, no matter what diet you follow!</p>
                     </div>
-                    <div class="image">
-                        <div class="circle circle-1"></div>
-                        <div class="circle circle-2"></div>
-                        <img src="./imgs/phones/app-screen-1.png" alt="">
-                    </div>
                 </div>
-                <div class="feat grid">
+                
+                <div class="feat reverse">
                     <div class="image">
                         <div class="circle circle-1"></div>
                         <div class="circle circle-2"></div>
-                        <img src="./imgs/phones/app-screen-2.png" alt="">
+                        <img src="./imgs/phones/app-screen-2.png" alt="" class="feat-img">
                     </div>
                     <div class="feat-content">
                         <h2>02</h2>
@@ -125,17 +132,18 @@
                             ingredients, swap entire meals, or even add your own recipes.</p>
                     </div>
                 </div>
-                <div class="feat grid">
+
+                <div class="feat ">
+                    <div class="image">
+                        <div class="circle circle-1"></div>
+                        <div class="circle circle-2"></div>
+                        <img src="./imgs/phones/app-screen-3.png" alt="" class="feat-img">
+                    </div>
                     <div class="feat-content">
                         <h2>03</h2>
                         <h3>Receive meals at convenient time</h3>
                         <p>Best chefs in town will cook your selected meal every day, and we will deliver it to your
                             door whenever works best for you. You can change delivery schedule and address daily!</p>
-                    </div>
-                    <div class="image">
-                        <div class="circle circle-1"></div>
-                        <div class="circle circle-2"></div>
-                        <img src="./imgs/phones/app-screen-3.png" alt="">
                     </div>
                 </div>
             </div>
@@ -448,6 +456,7 @@
             </div>
         </div>
     </footer>
+
     <div class="to-up">
         <i class="fa-solid fa-arrow-up"></i>
     </div>
