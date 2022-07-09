@@ -6,7 +6,7 @@
     1. Amazing Colors
     2. A new Layouts in the Website
 
-**<center><h2 >Live Demo Will Come Soon After Last Edits**</h2></center>
+**<center><h2 >Live Demo: [Click to view](https://amrelskhawy.github.io/Omnifood-website/)**</h2></center>
 
 <h2>Screenshot from Website</h2>
 
